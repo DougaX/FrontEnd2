@@ -1,12 +1,20 @@
-# React + Vite
+# FrontEnd 2 - Atividades
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repositório contendo todas as atividades da disciplina de Front-End 2.
 
-Currently, two official plugins are available:
+## 📚 Estrutura do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **atividade01**: Configuração do ambiente de desenvolvimento
+- **atividade02**: Layout ReactJS com Vite (vanilla vs React)
+- **atividade03**: Hooks (useState, useEffect, useRef) - IMC e TodoList
+- **atividade04**: React Router - Rotas e navegação
+- **atividade05**: Context API - Gerenciamento de estado global
 
-## Expanding the ESLint configuration
+## 🚀 Como executar cada atividade
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Cada atividade possui seu próprio projeto. Para executar:
+
+```bash
+cd atividade0X/nome-do-projeto
+npm install
+npm run dev
