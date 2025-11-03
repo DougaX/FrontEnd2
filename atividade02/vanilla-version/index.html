@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Sistema de Gerenciamento de Salas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="logo">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="5" y="5" width="50" height="50" stroke="black" stroke-width="2" fill="white"/>
+                    <rect x="15" y="15" width="30" height="20" stroke="black" stroke-width="2" fill="none"/>
+                    <line x1="30" y1="15" x2="30" y2="35" stroke="black" stroke-width="2"/>
+                    <line x1="15" y1="25" x2="45" y2="25" stroke="black" stroke-width="2"/>
+                    <rect x="20" y="40" width="20" height="10" stroke="black" stroke-width="2" fill="none"/>
+                </svg>
+            </div>
+
+            <h1>Sistema de Gerenciamento de Salas</h1>
+            <p class="subtitle">Faça login para continuar</p>
+
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="seu.email@exemplo.com"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input 
+                        type="password" 
+                        id="password" 
+                        name="password" 
+                        placeholder="••••••••"
+                        required
+                    >
+                </div>
+
+                <div class="form-options">
+                    <label class="checkbox">
+                        <input type="checkbox" id="remember">
+                        <span>Lembrar-me</span>
+                    </label>
+                    <a href="#" class="forgot-password">Esqueceu a senha?</a>
+                </div>
+
+                <button type="submit" class="btn-login">Entrar</button>
+            </form>
+
+            <div class="divider">
+                <span>ou</span>
+            </div>
+
+            <button class="btn-register">Criar nova conta</button>
+
+            <footer class="login-footer">
+                <p>&copy; 2024 Sistema de Gerenciamento de Salas. Todos os direitos reservados.</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
