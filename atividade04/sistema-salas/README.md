@@ -1,16 +1,57 @@
-# React + Vite
+# 🏫 Sistema Escolar de Gerenciamento de Salas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema completo para gerenciamento e reserva de salas em ambiente escolar.
 
-Currently, two official plugins are available:
+## 🎯 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Login e Registro de professores
+- ✅ Listagem de salas disponíveis
+- ✅ Filtros por tipo e disponibilidade
+- ✅ Detalhes completos de cada sala
+- ✅ Sistema de reservas
+- ✅ Gerenciamento de reservas
+- ✅ Autenticação via localStorage
 
-## React Compiler
+## 🛠️ Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 18
+- React Router DOM 6
+- Vite
+- CSS Modules
 
-## Expanding the ESLint configuration
+## 📦 Instalação
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Instalar dependências
+npm install
+
+# Rodar em desenvolvimento
+npm run dev
+
+# Build para produção
+npm run build
+
+## 🎨 Design
+
+Sistema desenvolvido com design preto e branco minimalista, inspirado no estilo brutalista.
+
+## 📁 Estrutura
+
+src/
+├── components/     # Componentes reutilizáveis
+├── layouts/        # Layouts (Auth e Main)
+├── pages/          # Páginas da aplicação
+├── data/           # Dados mockados (JSON)
+└── styles/         # Estilos CSS
+
+## 🔐 Dados de Teste
+
+Qualquer email e senha funcionam para login.
+
+📚 Páginas
+
+- /login - Login
+- /register - Cadastro
+- /dashboard - Lista de salas
+- /sala/:id - Detalhes da sala (useParams)
+- /reservas - Minhas reservas
