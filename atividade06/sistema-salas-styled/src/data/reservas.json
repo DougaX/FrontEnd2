@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "salaId": 1,
+    "salaNome": "Sala de Reuniões A",
+    "data": "2024-04-15",
+    "horaInicio": "09:00",
+    "horaFim": "11:00",
+    "responsavel": "João Silva",
+    "objetivo": "Reunião de planejamento trimestral",
+    "status": "confirmada"
+  },
+  {
+    "id": 2,
+    "salaId": 2,
+    "salaNome": "Auditório Principal",
+    "data": "2024-04-20",
+    "horaInicio": "14:00",
+    "horaFim": "17:00",
+    "responsavel": "Maria Santos",
+    "objetivo": "Palestra sobre inovação tecnológica",
+    "status": "confirmada"
+  },
+  {
+    "id": 3,
+    "salaId": 4,
+    "salaNome": "Sala Executiva",
+    "data": "2024-04-18",
+    "horaInicio": "10:00",
+    "horaFim": "12:00",
+    "responsavel": "Pedro Oliveira",
+    "objetivo": "Reunião com diretoria",
+    "status": "pendente"
+  },
+  {
+    "id": 4,
+    "salaId": 3,
+    "salaNome": "Sala de Treinamento B",
+    "data": "2024-04-12",
+    "horaInicio": "08:00",
+    "horaFim": "17:00",
+    "responsavel": "Ana Costa",
+    "objetivo": "Treinamento React Avançado",
+    "status": "confirmada"
+  }
+]
