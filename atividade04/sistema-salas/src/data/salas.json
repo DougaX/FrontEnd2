@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "nome": "Sala de Reuniões A",
+    "capacidade": 10,
+    "tipo": "Reunião",
+    "recursos": ["Projetor", "Quadro Branco", "TV"],
+    "disponivel": true,
+    "andar": 2,
+    "descricao": "Sala ideal para reuniões de equipe e apresentações.",
+    "imagem": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=500"
+  },
+  {
+    "id": 2,
+    "nome": "Auditório Principal",
+    "capacidade": 100,
+    "tipo": "Auditório",
+    "recursos": ["Sistema de Som", "Projetor 4K", "Microfones", "Ar Condicionado"],
+    "disponivel": true,
+    "andar": 1,
+    "descricao": "Espaço amplo para eventos, palestras e treinamentos.",
+    "imagem": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=500"
+  },
+  {
+    "id": 3,
+    "nome": "Sala de Treinamento B",
+    "capacidade": 20,
+    "tipo": "Treinamento",
+    "recursos": ["Computadores", "Projetor", "Internet de Alta Velocidade"],
+    "disponivel": false,
+    "andar": 3,
+    "descricao": "Equipada com estações de trabalho para treinamentos práticos.",
+    "imagem": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500"
+  },
+  {
+    "id": 4,
+    "nome": "Sala Executiva",
+    "capacidade": 6,
+    "tipo": "Executiva",
+    "recursos": ["TV 65'", "Sistema de Videoconferência", "Mesa Premium"],
+    "disponivel": true,
+    "andar": 5,
+    "descricao": "Ambiente sofisticado para reuniões executivas.",
+    "imagem": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=500"
+  },
+  {
+    "id": 5,
+    "nome": "Espaço Coworking",
+    "capacidade": 30,
+    "tipo": "Coworking",
+    "recursos": ["WiFi", "Café", "Mesas Compartilhadas", "Tomadas"],
+    "disponivel": true,
+    "andar": 1,
+    "descricao": "Espaço colaborativo para trabalho flexível.",
+    "imagem": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=500"
+  },
+  {
+    "id": 6,
+    "nome": "Sala de Criatividade",
+    "capacidade": 8,
+    "tipo": "Brainstorm",
+    "recursos": ["Quadro Branco", "Post-its", "Pufes", "Iluminação Ajustável"],
+    "disponivel": true,
+    "andar": 4,
+    "descricao": "Ambiente descontraído para sessões de brainstorming.",
+    "imagem": "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=500"
+  }
+]
