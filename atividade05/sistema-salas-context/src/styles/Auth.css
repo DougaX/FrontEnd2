@@ -1,0 +1,186 @@
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  padding: 20px;
+}
+
+.auth-box {
+  background-color: var(--white);
+  border: 2px solid var(--black);
+  padding: 40px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 8px 8px 0px var(--black);
+}
+
+.auth-logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.auth-logo span {
+  font-size: 64px;
+}
+
+.auth-logo h1 {
+  font-size: 28px;
+  color: var(--black);
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.auth-logo p {
+  color: var(--gray-dark);
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.auth-form {
+  margin-top: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: var(--black);
+  font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid var(--black);
+  background-color: var(--white);
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  box-shadow: 4px 4px 0px var(--black);
+  transform: translate(-2px, -2px);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: var(--gray-medium);
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  border: 2px solid var(--black);
+}
+
+.forgot-link {
+  color: var(--black);
+  font-weight: 600;
+  border-bottom: 1px solid var(--black);
+}
+
+.forgot-link:hover {
+  border-bottom: 2px solid var(--black);
+}
+
+.btn-auth {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+}
+
+.auth-divider {
+  text-align: center;
+  margin: 25px 0;
+  position: relative;
+}
+
+.auth-divider::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: var(--black);
+}
+
+.auth-divider span {
+  background-color: var(--white);
+  padding: 0 15px;
+  position: relative;
+  color: var(--black);
+  font-weight: 600;
+}
+
+.auth-switch {
+  text-align: center;
+  color: var(--gray-dark);
+  font-size: 14px;
+}
+
+.auth-switch a {
+  color: var(--black);
+  font-weight: 600;
+  margin-left: 5px;
+  border-bottom: 1px solid var(--black);
+}
+
+.auth-switch a:hover {
+  border-bottom: 2px solid var(--black);
+}
+
+.message {
+  padding: 12px;
+  border: 2px solid var(--black);
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.message.success {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.message.error {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+@media (max-width: 480px) {
+  .auth-box {
+    padding: 30px 20px;
+  }
+
+  .auth-logo h1 {
+    font-size: 24px;
+  }
+}
