@@ -190,6 +190,7 @@ const AuthLayout = () => {
 ```
 
 ## 📁 Estrutura de Pastas
+```bash
 
 text
 sistema-salas-context/
@@ -220,6 +221,7 @@ sistema-salas-context/
 │   ├── App.jsx                 (3 Providers)
 │   └── main.jsx
 🔗 App.jsx com Providers
+```
 ```jsx
 function App() {
   return (
