@@ -252,6 +252,7 @@ function App() {
 
 ## 🎯 Fluxo de Navegação
 
+```bash
 / → Redireciona para /login
 /login → Página de login
 /register → Página de registro
@@ -259,6 +260,7 @@ function App() {
 /sala/:id 🔒 → Detalhes da sala (protegido)
 /reservas 🔒 → Minhas reservas (protegido)
 🔒 = Rota Protegida (requer autenticação)
+```
 
 ## 📊 Comparação: Antes vs Depois
 
