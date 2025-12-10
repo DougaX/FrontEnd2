@@ -1,7 +1,7 @@
 import { Outlet, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../components/header.jsx';
+import Footer from '../components/footer.jsx';
 
 const MainLayout = () => {
   const [user, setUser] = useState(null);

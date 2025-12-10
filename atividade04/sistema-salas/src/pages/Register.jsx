@@ -6,6 +6,7 @@ const Register = () => {
   const [formData, setFormData] = useState({
     nome: '',
     email: '',
+    tipo: 'professor',
     password: '',
     confirmPassword: ''
   });
@@ -44,15 +45,13 @@ const Register = () => {
       id: Date.now(),
       nome: formData.nome,
       email: formData.email,
-      tipo: 'user'
+      tipo: formData.tipo
     };
 
-    // Salvar no localStorage
     localStorage.setItem('user', JSON.stringify(user));
 
     setMessage({ text: 'Conta criada com sucesso!', type: 'success' });
 
-    // Redirecionar para dashboard
     setTimeout(() => {
       navigate('/dashboard');
     }, 1000);
@@ -62,9 +61,9 @@ const Register = () => {
     <div className="auth-container">
       <div className="auth-box">
         <div className="auth-logo">
-          <span>🏢</span>
+          <span>🏫</span>
           <h1>Criar Conta</h1>
-          <p>Preencha os dados para começar</p>
+          <p>Sistema Escolar de Salas</p>
         </div>
 
         {message.text && (
@@ -82,22 +81,37 @@ const Register = () => {
               name="nome"
               value={formData.nome}
               onChange={handleChange}
-              placeholder="João Silva"
+              placeholder="Prof. João Silva"
               required
             />
           </div>
 
           <div className="form-group">
-            <label htmlFor="email">E-mail</label>
+            <label htmlFor="email">E-mail Institucional</label>
             <input
               type="email"
               id="email"
               name="email"
               value={formData.email}
               onChange={handleChange}
-              placeholder="seu.email@exemplo.com"
+              placeholder="professor@escola.edu.br"
               required
             />
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="tipo">Tipo de Usuário</label>
+            <select
+              id="tipo"
+              name="tipo"
+              value={formData.tipo}
+              onChange={handleChange}
+              required
+            >
+              <option value="professor">Professor</option>
+              <option value="coordenador">Coordenador</option>
+              <option value="administrativo">Administrativo</option>
+            </select>
           </div>
 
           <div className="form-group">
