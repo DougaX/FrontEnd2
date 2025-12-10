@@ -1,0 +1,84 @@
+/* Estilos específicos do App */
+.App {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Estilos para o conteúdo principal */
+.main-content {
+  padding: 20px;
+  min-height: calc(100vh - 80px);
+}
+
+/* Grid para listas */
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+/* Estilos para formulários */
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Estilos para tabelas */
+.table-container {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #333;
+}
+
+tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 10px;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .form-container {
+    margin: 10px;
+    padding: 20px;
+  }
+}
